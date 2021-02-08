@@ -9,18 +9,49 @@
 <body>
     <header>
         
-        <div>
+        <div id='titulo'>
             logo
         </div>
 
     </header>
-    <section>
-        <div id='conteiner1'>
+    <section class='section1'>
+        <div id='caixa_nova_tarefa'>
             <div id='adicionar_nota'>
-                
-                    <input type="text" id="cx1" value="Criar uma tarefa...">
+                    <input type="text" id="cx1" value="Criar uma tarefa..." onfocus="if(this.value=='Criar uma tarefa...'){this.value='';}" onblur="if(this.value==''){this.value='Criar uma tarefa...';};">
                     <button id='bt1'>Ok</button>
-
+            </div>
+        </div>
+    </section>
+    <section class='section2'>
+        <div id='conteiner1'>
+            <div class='subtitulo'>
+                <h2>Do To &#x1F534</h2>
+            </div>
+            <div class='caixa'>
+                <h3>Título1</h3>
+                <button class='btx'>x</button>
+            </div>
+            <div class='caixa'>
+                <h3>Título2</h3>
+                <button class='btx'>x</button>
+            </div>
+        </div>
+        <div id='conteiner2'>
+            <div class='subtitulo'>
+                <h2>On Going &#x1F7E1</h2>
+            </div>
+            <div class='caixa'>
+                <h3>Título2</h3>
+                <button class='btx'>x</button>
+            </div>
+        </div>
+        <div id='conteiner3'>
+            <div class='subtitulo'>
+                <h2>Finished &#x1F7E2</h2>
+            </div>
+            <div class='caixa'>
+                <h3>Título2</h3>
+                <button class='btx'>x</button>
             </div>
         </div>
     </section>
