@@ -4,15 +4,20 @@
     border: none;
     outline: none;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+
 }
 
 html{
     font-size: 62.5%;
 }
 
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
 #conteiner{
-    width: 84.0rem;
+    width: min(100vw, 84.0rem);
     height: 55.0rem;
     margin-top: 20.0rem;
     text-align: center;
@@ -57,29 +62,5 @@ a{
 @media (max-width: 855px){
     html{
         font-size: 50%;
-    }
-}
-
-@media (max-width: 680px){
-    html{
-        font-size: 40%;
-    }
-}
-
-@media (max-width: 540px){
-    html{
-        font-size: 30%;
-    }
-}
-
-@media (max-width: 405px){
-    html{
-        font-size: 20%;
-    }
-}
-
-@media (max-width: 270px){
-    html{
-        font-size: 10%;
     }
 }
