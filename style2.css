@@ -5,13 +5,10 @@
     outline: none;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    line-height: 1;
 }
 
 html{
     font-size: 62.5%;
-    width: 100vw;
-    height: 100vh;
 }
 
 body{
