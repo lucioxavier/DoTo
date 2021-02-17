@@ -26,7 +26,7 @@ body{
     background-color:red;
 }
 
-h1{
+/* h1{
     font-size: 13rem;
     color: #892CDC;
     text-align: left;
@@ -59,10 +59,36 @@ h3{
 
 a{
     color: #FFFFFF;
+} */
+
+
+
+@media (max-width: 855px){
+    html{
+        font-size: 50%;
+    }
 }
 
-@media (max-width: 375px){
+@media (max-width: 680px){
     html{
-        font-size: 25%;
+        font-size: 40%;
+    }
+}
+
+@media (max-width: 540px){
+    html{
+        font-size: 30%;
+    }
+}
+
+@media (max-width: 405px){
+    html{
+        font-size: 20%;
+    }
+}
+
+@media (max-width: 270px){
+    html{
+        font-size: 10%;
     }
 }
