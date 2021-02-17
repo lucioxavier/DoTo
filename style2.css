@@ -61,32 +61,8 @@ a{
     color: #FFFFFF;
 }
 
-@media (max-width: 1620px){
+@media (max-width: 375px){
     html{
-        font-size: 50%;
-    }
-}
-
-@media (max-width: 1320px){
-    html{
-        font-size: 40%;
-    }
-}
-
-@media (max-width: 1020px){
-    html{
-        font-size: 30%;
-    }
-}
-
-@media (max-width: 400px){
-    html{
-        font-size: 20%;
-    }
-}
-
-@media (max-width: 270px){
-    html{
-        font-size: 15%;
+        font-size: 25%;
     }
 }
