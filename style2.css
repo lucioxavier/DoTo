@@ -4,7 +4,6 @@
     border: none;
     outline: none;
     box-sizing: border-box;
-
 }
 
 html{
@@ -19,12 +18,11 @@ body{
 #conteiner{
     width: min(100vw, 84.0rem);
     height: 55.0rem;
-    margin-top: 20.0rem;
+    margin: 20.0rem auto 0 auto;
     text-align: center;
-    background-color:red;
 }
 
-/* h1{
+h1{
     font-size: 13rem;
     color: #892CDC;
     text-align: left;
@@ -57,10 +55,34 @@ h3{
 
 a{
     color: #FFFFFF;
-} */
+}
 
 @media (max-width: 855px){
     html{
         font-size: 50%;
+    }
+}
+
+@media (max-width: 675px){
+    html{
+        font-size: 40%;
+    }
+}
+
+@media (max-width: 535px){
+    html{
+        font-size: 30%;
+    }
+}
+
+@media (max-width: 405px){
+    html{
+        font-size: 20%;
+    }
+}
+
+@media (max-width: 275px){
+    html{
+        font-size: 15%;
     }
 }
