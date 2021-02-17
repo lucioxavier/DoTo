@@ -7,14 +7,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body{
-    background-color: #000000;
+html{
+    font-size: 62.5%;
 }
 
 #conteiner{
     width: 84.0rem;
     height: 55.0rem;
-    margin: 20.0rem auto 0rem auto;
+    margin-top: 20.0rem;
     text-align: center;
     background-color:red;
 }
@@ -53,8 +53,6 @@ h3{
 a{
     color: #FFFFFF;
 } */
-
-
 
 @media (max-width: 855px){
     html{
