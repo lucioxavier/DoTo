@@ -1,8 +1,8 @@
 *{
     margin: 0;
-    outline: none;
-    border: none;
     padding: 0;
+    border: none;
+    outline: none;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     line-height: 1;
@@ -21,6 +21,7 @@ body{
     height: 55.0rem;
     margin: 20.0rem auto 0rem auto;
     text-align: center;
+    background-color:red;
 }
 
 h1{
