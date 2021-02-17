@@ -17,12 +17,12 @@ body{
 
 #conteiner{
     width: min(100vw, 84.0rem);
-    height: 55.0rem;
-    margin: 20.0rem auto 0 auto;
+    margin: auto;
     text-align: center;
+    background-color: red;
 }
 
-h1{
+ h1{
     font-size: 13rem;
     color: #892CDC;
     text-align: left;
@@ -38,8 +38,8 @@ h2{
 button{
     background-color: #892CDC;
     color: #FFFFFF;
-    width: 40.0rem;
-    height: 10.0rem;
+    width: min(100vw, 40.0rem);
+    padding: 3rem;
     border-radius: 7.0rem;
     font-size: 4.0rem;
     font-weight: bold;
