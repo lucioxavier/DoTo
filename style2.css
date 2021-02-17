@@ -10,10 +10,12 @@
 
 html{
     font-size: 62.5%;
+    overflow: hidden;
 }
 
 body{
     background-color: #000000;
+    overflow: hidden;
 }
 
 #conteiner{
