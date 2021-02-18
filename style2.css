@@ -28,7 +28,7 @@ body{
     font-size: 13rem;
     color: #892CDC;
     text-align: left;
-    display: inline-block;
+    display: flex;
 }
 
 h2{
@@ -36,7 +36,7 @@ h2{
     font-weight: lighter;
     color: #FFFFFF;
     text-align: left;
-    display: inline-block;
+    display: flex;
 }
 
 button{
@@ -55,7 +55,6 @@ h3{
     font-weight: normal;
     color: #FFFFFF;
     margin-top: 1.0rem;
-    display: inline-block;
 }
 
 a{
