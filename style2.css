@@ -60,31 +60,31 @@ a{
     color: #FFFFFF;
 }
 
-@media (max-width: 880px){
+@media screen and (max-width: 880px){
     html{
         font-size: 50%;
     }
 }
 
-@media (max-width: 720px){
+@media screen and (max-width: 720px){
     html{
         font-size: 40%;
     }
 }
 
-@media (max-width: 590px){
+@media screen and (max-width: 590px){
     html{
         font-size: 30%;
     }
 }
 
-@media (max-width: 450px){
+@media screen and (max-width: 450px){
     html{
         font-size: 20%;
     }
 }
 
-@media (max-width: 310px){
+@media screen and (max-width: 310px){
     html{
         font-size: 15%;
     }
