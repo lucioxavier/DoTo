@@ -20,7 +20,7 @@ header{
 }
 
 #conteiner{
-    width: 90.0rem;
+    width: min(95vw, 86.0rem);
     padding: 1rem;
     background-color: red;
     color: white;
@@ -30,24 +30,6 @@ header{
     justify-content: center;
     align-items: center;
 }
-
-/* .h1{
-    width: 30px;
-    height: 30px;
-    background-color: blue;
-}
-
-.h2{
-    width: 30px;
-    height: 30px;
-    background-color: green;
-}
-
-.h3{
-    width: 30px;
-    height: 30px;
-    background-color: black;
-} */
 
 h1{
     font-size: 13rem;
