@@ -19,13 +19,38 @@ header{
     height: 10rem;
 }
 
+section{
+
+}
+
 #conteiner{
-    background-color: red;
-    width: 86%;
-    height: 300px;
+    background-color: blue;
+    width: 95%;
+    height: 500px;
     margin: auto;
     border-left: 5px solid black;
     border-right: 5px solid black;
+    text-align: center;
+ 
+}
+
+h1{
+    font-size: 16rem;
+    color: #892CDC;
+}
+
+h2{
+    font-size: 5.0rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-weight: lighter;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 375px){
+    html{
+        font-size: 15%;
+    }
 }
 
 
