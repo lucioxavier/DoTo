@@ -43,6 +43,7 @@ h2{
 }
 
 .bt{
+    -webkit-appearance: none
     width: 95%;
     height: 40px;
     border-radius: 5px;
@@ -63,4 +64,8 @@ h3{
 a{
     color: white;
     font-weight: bold;
+}
+
+.form:focus{
+    border: 1px solid #892CDC;
 }
