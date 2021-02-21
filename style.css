@@ -40,10 +40,11 @@ h2{
 }
 
 button{
+    -webkit-appearance: none;
     background-color: #892CDC;
     color: #FFFFFF;
     margin: 10rem 0 1rem 0;
-    width: min(50vw, 40.0rem);
+    width: min(100vw, 40.0rem);
     padding: 3rem;
     border-radius: 6.0rem;
     font-weight: bold;
