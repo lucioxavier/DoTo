@@ -20,6 +20,16 @@ header{
 }
 
 #conteiner{
+    background-color: red;
+    width: 86%;
+    height: 300px;
+    margin: auto;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+
+/* #conteiner{
     width: min(45vw, 86.0rem);
     padding: 1rem;
     background-color: red;
@@ -126,5 +136,5 @@ a{
     html{
         font-size: 5%;
     }
-}
+} */
 
