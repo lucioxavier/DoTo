@@ -20,7 +20,7 @@ header{
 }
 
 #conteiner{
-    width: min(95vw, 86.0rem);
+    width: min(45vw, 86.0rem);
     padding: 1rem;
     background-color: red;
     color: white;
@@ -62,33 +62,69 @@ a{
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 880px){
+@media screen and (max-width: 1910px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 1680px){
     html{
         font-size: 50%;
     }
 }
 
+@media screen and (max-width: 1525px){
+    html{
+        font-size: 45%;
+    }
+}
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 1370px){
     html{
         font-size: 40%;
     }
 }
 
-@media screen and (max-width: 590px){
+@media screen and (max-width: 1230px){
+    html{
+        font-size: 35%;
+    }
+}
+
+@media screen and (max-width: 1070px){
     html{
         font-size: 30%;
     }
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 915px){
+    html{
+        font-size: 25%;
+    }
+}
+
+@media screen and (max-width: 760px){
     html{
         font-size: 20%;
     }
 }
 
-@media screen and (max-width: 310px){
+@media screen and (max-width: 610px){
     html{
         font-size: 15%;
     }
 }
+
+@media screen and (max-width: 460px){
+    html{
+        font-size: 10%;
+    }
+}
+
+@media screen and (max-width: 310px){
+    html{
+        font-size: 5%;
+    }
+}
+
