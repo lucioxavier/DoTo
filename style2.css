@@ -48,8 +48,11 @@ h2{
 }
 
 @media screen and (max-width: 375px){
-    html{
-        font-size: 15%;
+    h1{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 20px;
     }
 }
 
