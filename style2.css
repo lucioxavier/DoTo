@@ -46,7 +46,7 @@ button{
     color: #FFFFFF;
     margin-top: 10rem;
     margin-bottom: 1rem;
-    width: min(100vw, 40.0rem);
+    width: min(50vw, 40.0rem);
     padding: 3rem;
     border-radius: 7.0rem;
     font-size: 4.0rem;
