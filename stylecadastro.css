@@ -43,7 +43,7 @@ h2{
 }
 
 .bt{
-    -webkit-appearance: none
+    -webkit-appearance: none;
     width: 95%;
     height: 40px;
     border-radius: 5px;
